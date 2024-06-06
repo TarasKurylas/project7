@@ -1,0 +1,47 @@
+.clients-wrapper {
+    padding: 94px 0;
+}
+
+.clients {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.client-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: rgba(175, 177, 184, 1);
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    margin-right: 30px;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-box:last-child {
+    margin: 0;
+}
+
+.client-box:hover,
+.client-box:focus {
+    fill: #2196f3;
+    border-color: #2196f3;
+}
+
+.client-list {
+    display: flex;
+}
+
+.client-logo {
+    width: 106px;
+    height: 60px;
+}
